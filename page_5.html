@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Burns, Ryan</o:Author>
   <o:LastAuthor>Burns, Ryan</o:LastAuthor>
-  <o:Revision>5</o:Revision>
-  <o:TotalTime>103</o:TotalTime>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>104</o:TotalTime>
   <o:Created>2023-01-29T02:11:00Z</o:Created>
-  <o:LastSaved>2023-02-17T02:33:00Z</o:LastSaved>
+  <o:LastSaved>2023-02-17T02:48:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>477</o:Words>
-  <o:Characters>2725</o:Characters>
+  <o:Words>476</o:Words>
+  <o:Characters>2715</o:Characters>
   <o:Lines>22</o:Lines>
   <o:Paragraphs>6</o:Paragraphs>
-  <o:CharactersWithSpaces>3196</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3185</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -689,7 +689,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
@@ -790,58 +791,50 @@ div.WordSection1
 style='font-size:16.0pt'> (2/17/23)<o:p></o:p></span></p>
 
 <p><span style='font-size:14.0pt'>Progress towards the final design of the
-project is going somewhat smooth so far.<span style='mso-spacerun:yes'> 
-</span>We are currently in the beginning stages of trying to implement machine
-learning into the project, and we appear to be on pace to finish the Alpha
-stage of the project on time, as indicated by the Gantt chart from the <a
-href="page_4.html">previous blog post</a>.<span style='mso-spacerun:yes'> 
-</span>For the final design document, something else that I brought up in the
-previous blog post was the structure of our project, and how the later sections
-of the design document would probably not be able to be fully completed until
-the project itself is nearing completion.<span style='mso-spacerun:yes'> 
-</span>So, there is not much progress to report in terms of the final design
-document at this point, but I expect this to change as we begin wrapping up the
-first part of the project and moving onto the Beta stage, where screen-reading
-will be implemented.<o:p></o:p></span></p>
+project is going somewhat smooth so far. We are currently in the beginning
+stages of trying to implement machine learning into the project, and we appear
+to be on pace to finish the Alpha stage of the project on time, as indicated by
+the Gantt chart from the <a href="page_4.html">previous blog post</a>. For the
+final design document, something else that I brought up in the previous blog
+post was the structure of our project, and how the later sections of the design
+document would probably not be able to be fully completed until the project
+itself is nearing completion. So, there is not much progress to report in terms
+of the final design document at this point, but I expect this to change as we
+begin wrapping up the first part of the project and moving onto the Beta stage,
+where screen-reading will be implemented.<o:p></o:p></span></p>
 
 <p><span style='font-size:14.0pt'>Since we have been using a version of Connect
 4 created in Python as the base for the project, something that has been
 implemented is the process of outputting the game state after every move is
-made.<span style='mso-spacerun:yes'>  </span>This will need to be changed
-slightly in the future to better match the format of the dataset that we plan
-on using for training the machine learning algorithm, but for now it does what
-it is supposed to do.<span style='mso-spacerun:yes'>  </span>There has also
-been some experimentation with the AI that is already present in the Python
-Connect 4 code, and in an effort to better understand the board scoring system
-that is used and how to improve it, we have the AI playing against itself in
-the current version.<span style='mso-spacerun:yes'>  </span>Since I have been
-tasked with improving said scoring system that our AI will ultimately use, this
-is helpful when trying to understand why certain moves are happening, and how
-to better reward certain actions over others.<span style='mso-spacerun:yes'> 
-</span>This will also help when testing the accuracy of the game state output
-when it gets reformatted.<o:p></o:p></span></p>
+made. This will need to be changed slightly in the future to better match the
+format of the dataset that we plan on using for training the machine learning
+algorithm, but for now it does what it is supposed to do. There has also been
+some experimentation with the AI that is already present in the Python Connect
+4 code, and in an effort to better understand the board scoring system that is
+used and how to improve it, we have the AI playing against itself in the
+current version. Since I have been tasked with improving said scoring system
+that our AI will ultimately use, this is helpful when trying to understand why certain
+moves are happening, and how to better reward certain actions over others. This
+will also help when testing the accuracy of the game state output when it gets
+reformatted.<o:p></o:p></span></p>
 
 <p><span style='font-size:14.0pt'>Although many of the concepts involved in
-this project are still quite new to me, I haven’t run into anything too
-challenging so far. <span style='mso-spacerun:yes'> </span>This will likely
-change (if only slightly) as I begin working on implementations, especially for
-something like the scoring system used for game states.<span
-style='mso-spacerun:yes'>  </span>However, I am hopeful that I will be able to
-use what I already know, and what I have learned this semester to get
-everything finished.<span style='mso-spacerun:yes'>  </span>Another challenge has
-been deciding on meeting times and formats, separate from class time on Monday
-and our scheduled one-on-one meetings on Thursday.<span
-style='mso-spacerun:yes'>  </span>We have typically been having brief check-in
-meetings over the weekend, but I would like to see this shift into a longer,
-more work-oriented type of meeting, as I think it would be very helpful if we
-took some time to sit down and look over the code together.<span
-style='mso-spacerun:yes'>  </span>I’ve always found it helpful to look through
-code and go over ideas with someone else, so even though our current meeting
-structure seems to be working, I hope we can have them be more useful going forward.<span
-style='mso-spacerun:yes'>  </span>Other than that, I think that the group as a
-whole has been making good progress, and I think I have a good understanding of
-what I need to revise and implement as we approach the end of the Alpha stage
-of the project. <o:p></o:p></span></p>
+this project are still quite new to me, I have not run into anything too
+challenging so far. This will likely change (if only slightly) as I begin
+working on implementations, especially for something like the scoring system
+used for game states. However, I am hopeful that I will be able to use what I
+already know, and what I have learned this semester to get everything finished.
+Another challenge has been deciding on meeting times and formats, separate from
+class time on Monday and our scheduled one-on-one meetings on Thursday. We have
+typically been having brief check-in meetings over the weekend, but I would
+like to see this shift into a longer, more work-oriented type of meeting, as I
+think it would be very helpful if we took some time to sit down and look over
+the code together. I have always found it helpful to look through code and go
+over ideas with someone else, so even though our current meeting structure
+seems to be working, I hope we can have them be more useful going forward. Other
+than that, I think that the group as a whole has been making good progress, and
+I think I have a good understanding of what I need to revise and implement as
+we approach the end of the Alpha stage of the project. <o:p></o:p></span></p>
 
 <p><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
